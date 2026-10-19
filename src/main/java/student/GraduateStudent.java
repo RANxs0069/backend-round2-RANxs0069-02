@@ -16,7 +16,7 @@ public class GraduateStudent extends Student {
 
     @Override
     public void introduce(){
-        System.out.println("My name is " + getName() + ",my id is " + getStudentID() + ",my score is " + getScore() + ",my advisor is " + this.advisor);
+        System.out.println("我是" + getName() + "，学号" + getStudentID() + "，成绩" + getScore() + "，我的导师是" + this.advisor);
     }//父类private的属性不可直接读写，要通过public的方法访问
 
     public void research() {

@@ -38,7 +38,7 @@ public class Student {
     }
 
     public void introduce(){
-        System.out.println("My name is " + this.name + ",my id is " + this.studentID + ",my score is " + this.score);
+        System.out.println("我是" + this.name + "，学号" + this.studentID + "，成绩" + this.score);
     }
 
 }
